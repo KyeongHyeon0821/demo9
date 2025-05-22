@@ -10,4 +10,17 @@ public class HomeController {
   public String homeGet() {
     return "home";
   }
+
+  @GetMapping("/admin/adminMenu")
+  public String adminMenuGet() {
+    return "admin/adminMenu";
+  }
+
+  @GetMapping("/error/accessDenied")
+  public String errorGet() {
+    return "error/errorDenied";
+  }
+
+
+
 }
